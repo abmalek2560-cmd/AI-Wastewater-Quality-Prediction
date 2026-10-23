@@ -16,6 +16,13 @@ The project utilizes machine learning models to predict treated effluent water q
 * **Description:** The dataset contains daily sensor measurements (e.g., pH, biological and chemical oxygen demand, conductivity, and flow rates) collected from a real-world wastewater treatment plant.
 
 ---
+### 🔍 Key Dataset Column Indices & Parameters
+Since the UCI dataset uses numerical indices instead of direct parameter names, key environmental and operational parameters are mapped as follows:
+* **Index 1 - 2:** Flow Rate and operational measurements.
+* **Index 3 - 4:** Inlet/Operational pH sensor metrics.
+* **Index 5 - 8:** Chemical and Biological Oxygen Demand (COD/BOD) indicators.
+* **Index 9 to 37:** Various multi-sensor water quality parameters.
+* **Index 38:** Target effluent water quality parameter.
 
 ## 🚀 Key Features & Methodology
 1. **Data Preprocessing & Cleaning:** Handled missing values using statistical imputation and structured multi-sensor feature matrices.
